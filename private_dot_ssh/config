@@ -1,0 +1,5 @@
+Host aliyun
+  HostName 116.62.142.22
+  User wanghb
+  Port 22
+
