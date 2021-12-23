@@ -210,7 +210,7 @@ exec --no-startup-id fcitx5 -d
 exec --no-startup-id nutstore
 #exec --no-startup-id flameshot
 exec --no-startup-id thunar --daemon
-{{ if eq .wanghb.chassistype "vm" }}
+{{ if eq .chassistype "vm" }}
 exec --no-startup-id VBoxClient-all
 exec --no-startup-id imwheel
 {{ end }}
