@@ -210,6 +210,10 @@ exec --no-startup-id fcitx5 -d
 exec --no-startup-id nutstore
 #exec --no-startup-id flameshot
 exec --no-startup-id thunar --daemon
+{{ if eq .wanghb.chassistype "vm" }}
+exec --no-startup-id VBoxClient-all
+exec --no-startup-id imwheel
+{{ end }}
 
 floating_minimum_size 100 x 100
 floating_maximum_size 1920 x 1600
